@@ -1,3 +1,6 @@
+body{
+  background-color: pink;
+}
 .app {
   text-align: center;
   padding: 2rem;
@@ -13,12 +16,17 @@ input {
   font-size: 1rem;
   width: 200px;
   margin-right: 10px;
+  outline: none;
+  border:none;
 }
 
 button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
+  outline: none;
+  border:none;
 }
+
 
 .todo-list {
   list-style: none;
