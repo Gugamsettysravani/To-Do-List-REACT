@@ -1,51 +1,88 @@
-body{
-  background-color: pink;
-}
-.app {
-  text-align: center;
-  padding: 2rem;
-  font-family: sans-serif;
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:rgb(182, 80, 97);
+  
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
-.input-section {
-  margin-bottom: 1rem;
+.div {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 400px;
+
 }
 
-input {
-  padding: 0.5rem;
-  font-size: 1rem;
-  width: 200px;
-  margin-right: 10px;
-  outline: none;
-  border:none;
+.text{
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+ outline:none;
 }
 
 button {
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  outline: none;
-  border:none;
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
 }
 
+button:hover {
+  background-color: #0056b3;
+}
 
-.todo-list {
+ul {
   list-style: none;
   padding: 0;
+  margin-top: 20px;
 }
 
-.todo-list li {
-  background: #f4f4f4;
-  margin: 0.5rem auto;
-  padding: 0.75rem;
-  width: 300px;
+li {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  border-radius: 5px;
+  background: #f1f1f1;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
 }
 
-.delete-btn {
-  background: red;
-  color: white;
-  border: none;
-  cursor: pointer;
+.checkbox {
+  margin-right: 10px;
+}
+
+.linethrough {
+  text-decoration: line-through;
+  color: #888;
+}
+
+li span {
+  flex-grow: 1;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+li button {
+  background-color: #dc3545;
+}
+
+li button:hover {
+  background-color: #b02a37;
+}
+
+
+.linethrough{
+  text-decoration: line-through;
 }
