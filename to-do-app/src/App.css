@@ -1,0 +1,43 @@
+.app {
+  text-align: center;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.input-section {
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 200px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  background: #f4f4f4;
+  margin: 0.5rem auto;
+  padding: 0.75rem;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
